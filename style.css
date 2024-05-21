@@ -69,50 +69,43 @@ body {
 }
 
 #eqhemeral {
-    position: relative;
+  position: relative;
   width: 30vw;
-  height: 42vw;
-  background-color: rgb(229, 221, 221);
+  min-height: 42vw;
+  /* background-color: rgb(229, 221, 221); */
 }
 
-#eqhemeral #headings{
-    top: -22%;
-    left: -20%;
-    position: absolute;
-
+#eqhemeral #headings {
+  top: -22%;
+  left: -20%;
+  position: absolute;
 }
 
-#eqhemeral img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
+#eqhemeral img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-#eqhemeral p{
-    position: absolute;
-    font-size: 1.3vw;
-    letter-spacing: -.07vw;
-    line-height: 1.3;
-    width: 40%;
-    top: 105%;
+#eqhemeral p {
+  margin-top: 30px;
+  font-size: 1.3vw;
+  letter-spacing: -0.07vw;
+  line-height: 1.3;
+  width: 40%;
 }
 
-
-
-#eqhemeral h1{
-    letter-spacing: -.5vw;
-    line-height: 1;
-    font-size: 6vw;
-    font-weight: 400;
-
+#eqhemeral h1 {
+  letter-spacing: -0.5vw;
+  line-height: 1;
+  font-size: 6vw;
+  font-weight: 400;
 }
 
-
-#visit{
-    display: flex;
-    gap: 10px ;
-    align-items: center;
+#visit {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 #visit #criclev {
@@ -126,10 +119,103 @@ body {
 }
 
 #criclev i {
-    color: #5e5e5e;
+  color: #5e5e5e;
 }
 
-#visit h3{
-    font-weight: 400;
-    color: #5e5e5e;
+#visit h3 {
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
+#motive {
+  display: flex;
+  margin-top: 7vw;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+}
+
+#motive p {
+  line-height: 1.7;
+  letter-spacing: -0.12vw;
+  width: 90%;
+  position: relative;
+  right: 0;
+  font-size: 2.1vw;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+#motive span {
+  margin: 0 13px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: -12.5px;
+}
+
+#onespan {
+  width: 80px;
+  height: 50px;
+  background-image: url(Assets/bluegirl.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+#twospan {
+  width: 130px;
+  height: 60px;
+  background-image: url(Assets/shaljam.jpg);
+  background-size: cover;
+  background-position: 0 48%;
+}
+#threespan {
+  width: 80px;
+  height: 50px;
+  background-image: url(Assets/grass.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+#pictures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-right: 12vw;
+}
+
+#firstpic{
+    width: 17vw;
+}
+
+#firstpic #picimg {
+    width: 100%;
+  height: 24vw;
+  margin-bottom: 1vw;
+}
+#picimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#firstpic h1 ,#secpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#firstpic p,#secpic p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+}
+
+#secpic{
+ width: 25vw;
+}
+
+#secpic #picimg {
+    width: 100%;
+  height: 37vw;
+  margin-bottom: 1vw;
 }
