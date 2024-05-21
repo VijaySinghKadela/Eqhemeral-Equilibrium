@@ -59,10 +59,6 @@ body {
 }
 
 #susimagewrapper img {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 140%;
   height: 140%;
   object-fit: cover;
@@ -279,7 +275,7 @@ body {
   flex-direction: column;
 }
 #future video {
-    opacity: 1;
+    opacity: 0;
   width: 100%;
   object-fit: cover;
   position: absolute;
@@ -296,7 +292,7 @@ body {
     z-index: 99;
     background-color: #fff;
     padding: 1vw 2vw;
-    border-radius: 10xp;
+    border-radius: 10px;
 }
 #ftext button{
     padding: .8vw 1.7vw;
