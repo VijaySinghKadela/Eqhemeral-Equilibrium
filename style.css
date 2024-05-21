@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nimbus Sans L";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 10vw;
+}
+#nleft {
+  display: flex;
+  gap: 30px;
+}
+#nav a {
+  font-weight: 800;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+#hero {
+  width: 100%;
+  margin-top: 15vw;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sustain {
+  width: 10vw;
+}
+#sustain p {
+  font-size: 12px;
+  font-weight: 800;
+  opacity: 0.5;
+  margin: 10px 0;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+#sustain #susimagewrapper {
+  width: 100%;
+  overflow: hidden;
+  height: 15vw;
+  position: relative;
+}
+
+#susimagewrapper img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140%;
+  height: 140%;
+  object-fit: cover;
+}
+
+#eqhemeral {
+    position: relative;
+  width: 30vw;
+  height: 42vw;
+  background-color: rgb(229, 221, 221);
+}
+
+#eqhemeral #headings{
+    top: -22%;
+    left: -20%;
+    position: absolute;
+
+}
+
+#eqhemeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#eqhemeral p{
+    position: absolute;
+    font-size: 1.3vw;
+    letter-spacing: -.07vw;
+    line-height: 1.3;
+    width: 40%;
+    top: 105%;
+}
+
+
+
+#eqhemeral h1{
+    letter-spacing: -.5vw;
+    line-height: 1;
+    font-size: 6vw;
+    font-weight: 400;
+
+}
+
+
+#visit{
+    display: flex;
+    gap: 10px ;
+    align-items: center;
+}
+
+#visit #criclev {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  border: 1px solid #dadada;
+  justify-content: center;
+}
+
+#criclev i {
+    color: #5e5e5e;
+}
+
+#visit h3{
+    font-weight: 400;
+    color: #5e5e5e;
+}
